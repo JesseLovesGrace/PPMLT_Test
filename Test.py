@@ -10,8 +10,8 @@ file_path = "C:\\Users\\jesse\\Desktop\\PPMLT\\Tests\\APPL\\AAPL.csv"
 df = pd.read_csv(file_path)
 
 # Feature engineering
+
 '''
-# Feature engineering
 features = [
     'RSI', 'Short_EMA_12', 'Long_EMA_26',
     'MACD_Line', 'Signal_Line', 'MACD_Histogram',
